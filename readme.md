@@ -10,7 +10,7 @@ This application was made as a RESTful quiz website built on top of the Django F
 
 I suggest PowerShell for Windows, but you can use whatever CLI that you feel comfortable with.
 
-**Pull the most recent release** 
+**Clone the source code** 
 
 ```
 git clone git@github.com:benjamin-lawson/DjangoQuizProject.git
