@@ -53,6 +53,12 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
+**Generate documentation YAML**
+
+```
+python manage.py spectacular --file schema.yml
+```
+
 **Run the server locally**
 
 ```
