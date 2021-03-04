@@ -66,4 +66,4 @@ These pages will give you an outline of how to interact with the API.
 
 ### Authentication
 This web server utilizes the JWT standard for authentication into our API. To get started, pass a username and password 
-to [localhost:8000/auth/](http://localhost:8000/auth/).
+in a POST request to [localhost:8000/auth/](http://localhost:8000/auth/).
