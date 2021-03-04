@@ -6,33 +6,58 @@ This application was made as a RESTful quiz website built on top of the Django F
 ## Getting Started
 
 ### Installation
-- Open a PowerShell window.
-- Pull the most recent release. 
+**Open a PowerShell window**
 
-```git clone git@github.com:benjamin-lawson/DjangoQuizProject.git```
-- Navigate to the project directory. 
+I suggest PowerShell for Windows, but you can use whatever CLI that you feel comfortable with.
 
-```cd DjangoQuizProject```
-- Create a virtual environment. 
+**Pull the most recent release** 
 
-```python -m virtualenv venv```
+```
+git clone git@github.com:benjamin-lawson/DjangoQuizProject.git
+```
 
+**Navigate to the project directory** 
+
+```
+cd DjangoQuizProject
+```
+
+**Create a virtual environment** 
+
+```
+python -m virtualenv venv
+```
 *NOTE: If you do not have the virtual environment library installed, you can install it via `python -m pip install virtualenv`*
-- Activate the virtual environment. 
 
-```./venv/Scripts/activate```
-- Install the required libraries. 
+**Activate the virtual environment** 
 
-```python -m pip install -r requirements.txt```
-- Create the database structure. 
+```
+./venv/Scripts/activate
+```
 
-```python manage.py migrate```
-- Create the admin account. 
+**Install the required libraries** 
 
-```python manage.py createsuperuser```
-- Run the server locally. 
+```
+python -m pip install -r requirements.txt
+```
 
-```python manage.py runserver 8000```
+**Create the database structure** 
+
+```
+python manage.py migrate
+```
+
+**Create the admin account**
+
+```
+python manage.py createsuperuser
+```
+
+**Run the server locally**
+
+```
+python manage.py runserver 8000
+```
 
 ### Documentation
 Once the server is running without errors, you can access the 
