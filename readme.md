@@ -61,9 +61,9 @@ python manage.py runserver 8000
 
 ### Documentation
 Once the server is running without errors, you can access the 
-[Swagger UI](localhost:8000/schema/swagger-ui) or [Redoc](localhost:8000/schema/swagger-ui) documentation.
+[Swagger UI](http://localhost:8000/schema/swagger-ui) or [Redoc](http://localhost:8000/schema/swagger-ui) documentation.
 These pages will give you an outline of how to interact with the API.
 
 ### Authentication
 This web server utilizes the JWT standard for authentication into our API. To get started, pass a username and password 
-to [localhost:8000/auth/](localhost:8000/auth/).
+to [localhost:8000/auth/](http://localhost:8000/auth/).
