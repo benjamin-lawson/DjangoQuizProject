@@ -67,7 +67,7 @@ python manage.py runserver 8000
 
 ### Documentation
 Once the server is running without errors, you can access the 
-[Swagger UI](http://localhost:8000/schema/swagger-ui) or [Redoc](http://localhost:8000/schema/swagger-ui) documentation.
+[Swagger UI](http://localhost:8000/schema/swagger-ui) or [Redoc](http://localhost:8000/schema/redoc/) documentation.
 These pages will give you an outline of how to interact with the API.
 
 ### Authentication
